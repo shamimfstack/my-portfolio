@@ -1,10 +1,10 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Logo from "../../components/Logo";
 
 const Navbar = () => {
   const navOptions = (
-    <div className="">
-      <li className="py-5">
+    <>
+      <li className="">
         <NavLink
           to="/"
           className={({ isActive, isPending }) =>
@@ -14,7 +14,7 @@ const Navbar = () => {
           Home
         </NavLink>
       </li>
-      <li className="py-5">
+      <li className="">
         <NavLink
           to="/about"
           className={({ isActive, isPending }) =>
@@ -24,7 +24,7 @@ const Navbar = () => {
           About Me
         </NavLink>
       </li>
-      <li className="py-5">
+      <li className="">
         <NavLink
           to="/services"
           className={({ isActive, isPending }) =>
@@ -34,7 +34,7 @@ const Navbar = () => {
           Services
         </NavLink>
       </li>
-      <li className="py-5">
+      <li className="">
         <NavLink
           to="/skills"
           className={({ isActive, isPending }) =>
@@ -44,7 +44,7 @@ const Navbar = () => {
           Skills
         </NavLink>
       </li>
-      <li className="py-5">
+      <li className="">
         <NavLink
           to="/projects"
           className={({ isActive, isPending }) =>
@@ -54,7 +54,7 @@ const Navbar = () => {
           Projects
         </NavLink>
       </li>
-      <li className="py-5">
+      <li className="">
         <NavLink
           to="/contact"
           className={({ isActive, isPending }) =>
@@ -64,14 +64,14 @@ const Navbar = () => {
           Contact Me
         </NavLink>
       </li>
-    </div>
+    </>
   );
 
   return (
     <div>
       <div className="navbar-start">
         <div className="dropdown md:hidden">
-          <div className="flex justify-between items-center">
+          <div className="flex justify-around items-center">
             <div
               tabIndex={0}
               role="button"
