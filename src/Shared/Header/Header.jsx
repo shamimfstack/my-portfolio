@@ -2,9 +2,9 @@
 
 const Header = () => {
   return (
-    <div>
-      <h2 className="text-3xl text-bold text-center">Shamim Ahammad</h2>
-      <p className="text-xl text-semibold text-center">MERN Stack Developer</p>
+    <div className="bg-gray-100 py-8">
+      <h2 className="text-3xl md:text-5xl text-bold text-center uppercase">Shamim Ahammad</h2>
+      <p className="text-xl text-bold text-center">MERN Stack Developer</p>
     </div>
   );
 }
