@@ -60,6 +60,10 @@ const Skills = () => {
                 <p className="font-bold">React</p>
               </div>
               <div className="flex flex-col justify-center items-center">
+                <img className="w-24" src={firebaseLogo} alt="" />
+                <p className="font-bold">Firebase</p>
+              </div>
+              <div className="flex flex-col justify-center items-center">
                 <img className="w-24" src={expressLogo} alt="" />
                 <p className="font-bold">Express.JS</p>
               </div>
