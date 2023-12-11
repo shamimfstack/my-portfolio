@@ -5,7 +5,7 @@ import SectionTitle from "../../components/SectionTitle";
 
 const About = () => {
   return (
-    <div>
+    <div className="">
       <Helmet>
         <title>about</title>
       </Helmet>
@@ -17,7 +17,7 @@ const About = () => {
       >
         <div className="hero-overlay bg-opacity-70"></div>
         <div className="hero-content text-center text-neutral-content">
-          <div className="">
+          <div className="pt-12">
             <Tilt>
               <div className="flex justify-center items-center">
                 <SectionTitle heading={"About Me"}></SectionTitle>
