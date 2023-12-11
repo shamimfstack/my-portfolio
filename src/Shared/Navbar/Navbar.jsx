@@ -8,7 +8,7 @@ const Navbar = () => {
         <NavLink
           to="/"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
+            isPending ? "pending" : isActive ? "text-red-700 text-bold" : ""
           }
         >
           Home
@@ -18,7 +18,7 @@ const Navbar = () => {
         <NavLink
           to="/about"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
+            isPending ? "pending" : isActive ? "text-red-700 text-bold" : ""
           }
         >
           About Me
@@ -28,7 +28,7 @@ const Navbar = () => {
         <NavLink
           to="/services"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
+            isPending ? "pending" : isActive ? "text-red-700 text-bold" : ""
           }
         >
           Services
@@ -38,7 +38,7 @@ const Navbar = () => {
         <NavLink
           to="/skills"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
+            isPending ? "pending" : isActive ? "text-red-700 text-bold" : ""
           }
         >
           Skills
@@ -48,7 +48,7 @@ const Navbar = () => {
         <NavLink
           to="/projects"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
+            isPending ? "pending" : isActive ? "text-red-700 text-bold" : ""
           }
         >
           Projects
@@ -58,7 +58,7 @@ const Navbar = () => {
         <NavLink
           to="/contact"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
+            isPending ? "pending" : isActive ? "text-red-700 text-bold" : ""
           }
         >
           Contact Me
