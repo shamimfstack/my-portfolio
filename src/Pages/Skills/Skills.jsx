@@ -1,16 +1,16 @@
 import { Helmet } from "react-helmet-async";
 import SectionTitle from "../../components/SectionTitle";
 import Tilt from "react-parallax-tilt";
-import htmlLogo from '../../../public/html.png'
-import cssLogo from '../../../public/css.png'
-import jsLogo from '../../../public/js.png'
-import bootstrapLogo from '../../../public/bootstrap.png'
-import tailwindLogo from '../../../public/tailwindcss.png'
-import reactLogo from '../../../public/react.png'
-import firebaseLogo from '../../../public/firebase.png'
-import nodeLogo from '../../../public/node.png'
-import expressLogo from '../../../public/express.png'
-import mongodbLogo from '../../../public/mongodb.png'
+import htmlLogo from '/html.png'
+import cssLogo from '/css.png'
+import jsLogo from '/js.png'
+import bootstrapLogo from '/bootstrap.png'
+import tailwindLogo from '/tailwindcss.png'
+import reactLogo from '/react.png'
+import firebaseLogo from '/firebase.png'
+import nodeLogo from '/node.png'
+import expressLogo from '/express.png'
+import mongodbLogo from '/mongodb.png'
 
 
 const Skills = () => {
