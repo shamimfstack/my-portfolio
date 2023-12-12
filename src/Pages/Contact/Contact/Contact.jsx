@@ -36,7 +36,7 @@ const Contact = () => {
                 <input className="border p-1 mb-2 w-full rounded-md bg-transparent" type="text" name="name" id="name" placeholder="name" />
                 <input className="border p-1 mb-2 w-full rounded-md bg-transparent" type="text" name="email_from" id="email" placeholder="email" />
                 <textarea className="border p-1 mb-2 w-full rounded-md bg-transparent resize-none" type="true" name="message" id="message" cols="30" rows="6" placeholder="your message"></textarea>
-                <input type="submit" className="btn btn-info btn-sm" />
+                <input type="submit" className="btn btn-info btn-sm btn-block" />
               </form>
             </div>
           </div>
