@@ -2,18 +2,18 @@ import { Helmet } from "react-helmet-async";
 import SectionTitle from "../../../components/SectionTitle";
 import Tilt from "react-parallax-tilt";
 import ProjectCard from "../../../components/ProjectCard";
-import figmaImg1 from "/figma/figma1.png";
-import figmaImg2 from "/figma/figma2.png";
-import figmaImg3 from "/figma/figma3.png";
-import responsiveImg1 from "/responsive/responsive1.png";
-import responsiveImg2 from "/responsive/responsive2.png";
-import responsiveImg3 from "/responsive/responsive3.png";
-import apiImg1 from "/api/api1.png";
-import apiImg2 from "/api/api2.png";
-import apiImg3 from "/api/api3.png";
-import developmentImg1 from "/development/develop1.png";
-import developmentImg2 from "/development/develop2.png";
-import developmentImg3 from "/development/develop3.png";
+import figmaImg1 from "/figma1.png";
+import figmaImg2 from "/figma2.png";
+import figmaImg3 from "/figma3.png";
+import responsiveImg1 from "/responsive1.png";
+import responsiveImg2 from "/responsive2.png";
+import responsiveImg3 from "/responsive3.png";
+import apiImg1 from "/api1.png";
+import apiImg2 from "/api2.png";
+import apiImg3 from "/api3.png";
+import developmentImg1 from "/develop1.png";
+import developmentImg2 from "/develop2.png";
+import developmentImg3 from "/develop3.png";
 
 const Projects = () => {
   // figma site link

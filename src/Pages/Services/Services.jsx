@@ -2,11 +2,11 @@ import { Helmet } from "react-helmet-async";
 import SectionTitle from "../../components/SectionTitle";
 import Tilt from "react-parallax-tilt";
 import { Link } from "react-router-dom";
-import figmaImg from '../../../public/figma.jpg'
-import htmlImg from '../../../public/html-banner.jpg'
-import reactImg from '../../../public/html-template.jpg'
-import frontImg from '../../../public/front-end.jpg'
-import backendImg from '../../../public/web-development.jpg'
+import figmaImg from '/figma.jpg'
+import htmlImg from '/html-banner.jpg'
+import reactImg from '/html-template.jpg'
+import frontImg from '/front-end.jpg'
+import backendImg from '/web-development.jpg'
 
 const Services = () => {
   return (
@@ -61,7 +61,7 @@ const Services = () => {
                 <div className="space-y-3">
                   <h3 className="text-xl font-bold">React Application</h3>
                   <p>
-                    Make your application with react, which will be a single page application, and it will provide faster and better performance.
+                    Make your application with react, and it will provide faster and better performance.
                   </p>
                   <Link to="/contact">
                     <button className="btn btn-info btn-sm mt-4">Order Now</button>

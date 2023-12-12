@@ -3,7 +3,7 @@ import Logo from "../../components/Logo";
 
 const Navbar = () => {
   const navOptions = (
-    <>
+    <div className="flex flex-col justify-center items-center">
       <li className="">
         <NavLink
           to="/"
@@ -64,7 +64,7 @@ const Navbar = () => {
           Contact
         </NavLink>
       </li>
-    </>
+    </div>
   );
 
   return (

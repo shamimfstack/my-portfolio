@@ -1,8 +1,10 @@
-# React + Vite
+This is my portfolio website. I have created this site about my personal information, skills, services i provide, skills i use for web development, few projects already i have created, and a contact form to contact with me.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This website is fully responsive, a single page application(SPA), which will provide faster and better performance.
 
-Currently, two official plugins are available:
+Github_link: https://github.com/shamimfstack/my-portfolio.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live_link: https://shiny-bubble.surge.sh
+
+
+
