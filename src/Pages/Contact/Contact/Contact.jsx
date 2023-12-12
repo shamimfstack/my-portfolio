@@ -31,8 +31,8 @@ const Contact = () => {
               </div>
             </Tilt>
 
-            <div className="mt-8 w-1/2 mx-auto">
-              <form href="mailto:shamimspy1985@gmail.com" onSubmit={handleSendEmail}>
+            <div className="mt-8 w-1/2 mx-auto py-10">
+              <form onSubmit={handleSendEmail}>
                 <input className="border p-1 mb-2 w-full rounded-md bg-transparent" type="text" name="name" id="name" placeholder="name" />
                 <input className="border p-1 mb-2 w-full rounded-md bg-transparent" type="text" name="email_from" id="email" placeholder="email" />
                 <textarea className="border p-1 mb-2 w-full rounded-md bg-transparent resize-none" type="true" name="message" id="message" cols="30" rows="6" placeholder="your message"></textarea>

@@ -61,7 +61,7 @@ const Navbar = () => {
             isPending ? "pending" : isActive ? "text-red-700 text-bold" : ""
           }
         >
-          Contact Me
+          Contact
         </NavLink>
       </li>
     </>

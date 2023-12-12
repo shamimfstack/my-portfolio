@@ -30,7 +30,7 @@ const Home = () => {
 
 
   return (
-    <div>
+    <div className="">
       <Helmet>
         <title>homepage</title>
       </Helmet>
@@ -41,7 +41,7 @@ const Home = () => {
         }}
       >
         <div className="hero-overlay bg-opacity-70"></div>
-        <div className="hero-content text-center text-neutral-content">
+        <div className="hero-content text-center text-neutral-content p-8">
           <div className="">
             <Tilt>
               <div className="flex justify-center items-center">

@@ -21,7 +21,7 @@ const Services = () => {
         }}
       >
         <div className="hero-overlay bg-opacity-70"></div>
-        <div className="hero-content text-center text-neutral-content">
+        <div className="hero-content text-center text-neutral-content p-8">
           <div className="pt-12">
             <Tilt>
               <div className="flex justify-center items-center">

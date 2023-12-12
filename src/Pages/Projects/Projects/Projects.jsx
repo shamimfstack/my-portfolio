@@ -2,18 +2,18 @@ import { Helmet } from "react-helmet-async";
 import SectionTitle from "../../../components/SectionTitle";
 import Tilt from "react-parallax-tilt";
 import ProjectCard from "../../../components/ProjectCard";
-import figmaImg1 from "../../../../public/figma/figma1.png";
-import figmaImg2 from "../../../../public/figma/figma2.png";
-import figmaImg3 from "../../../../public/figma/figma3.png";
-import responsiveImg1 from "../../../../public/responsive/responsive1.png";
-import responsiveImg2 from "../../../../public/responsive/responsive2.png";
-import responsiveImg3 from "../../../../public/responsive/responsive3.png";
-import apiImg1 from "../../../../public/api/api1.png";
-import apiImg2 from "../../../../public/api/api2.png";
-import apiImg3 from "../../../../public/api/api3.png";
-import developmentImg1 from "../../../../public/development/develop1.png";
-import developmentImg2 from "../../../../public/development/develop2.png";
-import developmentImg3 from "../../../../public/development/develop3.png";
+import figmaImg1 from "/figma/figma1.png";
+import figmaImg2 from "/figma/figma2.png";
+import figmaImg3 from "/figma/figma3.png";
+import responsiveImg1 from "/responsive/responsive1.png";
+import responsiveImg2 from "/responsive/responsive2.png";
+import responsiveImg3 from "/responsive/responsive3.png";
+import apiImg1 from "/api/api1.png";
+import apiImg2 from "/api/api2.png";
+import apiImg3 from "/api/api3.png";
+import developmentImg1 from "/development/develop1.png";
+import developmentImg2 from "/development/develop2.png";
+import developmentImg3 from "/development/develop3.png";
 
 const Projects = () => {
   // figma site link
@@ -45,7 +45,7 @@ const Projects = () => {
         }}
       >
         <div className="hero-overlay bg-opacity-70"></div>
-        <div className="hero-content text-center text-neutral-content">
+        <div className="hero-content text-center text-neutral-content p-8">
           <div className="pt-12">
             <Tilt>
               <div className="flex justify-center items-center">
