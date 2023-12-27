@@ -6,7 +6,7 @@ const Home = () => {
     filePath,
     fileName = "shamim's_resume.pdf",
   ) => {
-    fetch('https://drive.google.com/file/d/1Y6mr36v6sFlDjdkmCyN77thRWn0k6ofo/view?usp=sharing' + filePath, {
+    fetch('https://drive.google.com/file/d/1OrDRfjuXntTKcfqyDHas5TDYg8ht1qYN/view?usp=sharing' + filePath, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/pdf',
@@ -59,7 +59,7 @@ const Home = () => {
                 I am Shamim Ahammad, a promising and responsible MERN stack
                 developer with six months of experience. I am comfortable with
                 HTML, CSS, JavaScript, Tailwind CSS as the front end, Firebase
-                as authentication, Express.js and Node.js as the server side,
+                as authentication, JSON Web Token as authorization, Express.js and Node.js as the server side,
                 and MongoDB as the database. I have created a lot of projects
                 based on these technologies.
               </p>

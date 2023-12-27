@@ -9,7 +9,7 @@ export default function MainLayout() {
     <div className="bg-green-100 min-h-[screen-calc(100vh-100px)]">
       <Header></Header>
       <div className="flex flex-col md:flex-row">
-        <div className="menu w-full md:w-3/12 space-y-8 bg-[#78e0ed]">
+        <div className="menu w-full md:w-3/12 bg-[#78e0ed]">
           <div className="">
             <Tilt>
               <div className="hidden md:flex justify-center items-center">
